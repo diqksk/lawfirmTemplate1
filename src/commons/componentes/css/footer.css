@@ -1,0 +1,19 @@
+.footer-container{
+
+    background: #28292b;
+    padding: 15px;
+    color: white;
+}
+.introduce-div{
+    padding:0 20%;
+}
+.items-div{
+    display: flex;
+}
+.footer-menu{
+    display: flex;
+    margin-left: 100px;
+}
+.footer-menu>div{
+    margin:20px;
+}

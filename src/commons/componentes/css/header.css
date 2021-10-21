@@ -1,0 +1,42 @@
+.header-container{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    background: white;
+    padding:15px 0 ;
+}
+.header-contents-container{
+    display: flex;
+    min-width: 500px;
+
+}
+.header-contents-container> div{
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 500;
+    margin:0 30px;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    min-width: 500px;
+}
+.header-menu div:hover{
+    transition: all 0.5s;
+    color: #fc5757;
+    text-shadow: 1px 3px 10px rgba(0,0,0,0.3);
+    transform: translate(2px);
+}
+.header-icons div{
+    min-width: 300px;
+    font-size: 0.6em;
+}
+.header-icons{
+    display: flex;
+    align-items: center;
+}
